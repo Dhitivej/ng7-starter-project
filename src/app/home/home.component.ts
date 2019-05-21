@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  toStyleH1: boolean = false;
 
-  constructor() { }
-
-  ngOnInit() {
+  firstClick() {
+    // if (this.toStyleH1 === false) {
+    //   this.toStyleH1 = true;
+    // } else if (this.toStyleH1 === true) {
+    //   this.toStyleH1 = false;
+    // }
+    this.toStyleH1 = true;
   }
+  constructor() {}
 
+  ngOnInit() {}
 }
