@@ -1,6 +1,23 @@
-.grey {
-  color: grey;
-}
-.large {
-  font-size: 200%;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    background: #eeeeee;
+    padding: 2em;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    display: grid;
+    grid-template-columns: 100px auto;
+
+    p {
+      font-weight: bold;
+      margin-left: 20px;
+    }
+    img {
+      border-radius: 50%;
+      width: 100%;
+    }
+  }
 }
